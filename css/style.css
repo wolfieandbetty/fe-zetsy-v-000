@@ -61,7 +61,8 @@ header a:hover {/*this sets up the color for the links when you are hovering*/
 	border: 5px rgb(152,173,166) solid;
 }
 
- /*#artistwork a {
+ /*these don't appear to be doing anything - not sure why they were in the css
+ #artistwork a {
 	color: #1783bb;
 	text-decoration: none;
 }*/
