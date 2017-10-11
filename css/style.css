@@ -1,20 +1,89 @@
-/*////////////// Fonts //////////////*/
+/*////////////// Fonts - gives instruction on where to get fonts used that are "non-standard"//////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: #F3EBE9;/* Sets up a very light pink background that sits behind the wrapper and all elements in the wrapper */
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif; /* this font will be used by the paras in the About section */
 }
 
-.wrapper {
+.wrapper { /* This is the wrapper that has the white background. Elements within the wrapper will be centered with an equal white space on the sides by 
+	using margin:0 which means 0 margin on top and bottom, and auto which puts equal whitespace on the right and left as you resize the page */
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 45px 20px;/* content will have 0px padding on top 45px padding right and left and 20px padding on the bottom*/
 }
 
-/* Write all remaining styles here */
+h1 {
+	padding-bottom: 10px;/* this is the Zetsy name at the top of the wrapper. The border-bottom puts a nice thin line at the bottom. The margin is 0 top 0 right 
+	and left and 5px at the bottom */
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {/* this sets up the styling for h2 headers - About and Press They will use the TNR font as it was set up in Body and there is no change here */
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p  {/*this sets up the styling for the paras. TNR is the font. Also note that there is a 20 px bottom margin for each para which determines space between*/
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+.small {/*this sets up a small TNR font size for the footer*/
+	font-size: 0.8em;
+}
+
+/*////////// Section Styles //////////*/
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#artistwork img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#featured a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
