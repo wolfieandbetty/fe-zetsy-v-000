@@ -61,15 +61,15 @@ header a:hover {/*this sets up the color for the links when you are hovering*/
 	border: 5px rgb(152,173,166) solid;
 }
 
- #artistwork a {/*this doesn't appear to be doing anything on this html page */
+ /*#artistwork a {
 	color: #1783bb;
 	text-decoration: none;
-}
+}*/
 
-#artistwork img:hover {/*this doesn't appear to be doing anything on this html page */
-	border: 5px rgb(111,127,122) solid;
+/*#artistwork img: {
+	color: rgb(111,127,122);
 }
-
+*/
 #press {/*This sets up a 20px bottom margin as space underneath the Press header*/
 	margin-bottom: 20px;
 }
