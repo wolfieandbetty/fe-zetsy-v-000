@@ -66,7 +66,7 @@ header a:hover {/*this sets up the color for the links when you are hovering*/
 	text-decoration: none;
 }
 
-#artistwork a:hover {/*this doesn't appear to be doing anything on this html page */
+#artistwork img:hover {/*this doesn't appear to be doing anything on this html page */
 	text-decoration: underline;
 }
 
