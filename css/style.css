@@ -61,7 +61,7 @@ header a:hover {/*this sets up the color for the links when you are hovering*/
 	border: 5px rgb(152,173,166) solid;
 }
 
-#artistwork a {
+/*test  #artistwork a {
 	color: #1783bb;
 	text-decoration: none;
 }
@@ -69,7 +69,7 @@ header a:hover {/*this sets up the color for the links when you are hovering*/
 #artistwork a:hover {
 	text-decoration: underline;
 }
-
+*/
 #press {/*This sets up a 20px bottom margin as space underneath the Press header*/
 	margin-bottom: 20px;
 }
